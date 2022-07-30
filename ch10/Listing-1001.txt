@@ -1,0 +1,7 @@
+docker run -d \
+       --name <CONTAINER_NAME> \
+       -e ORACLE_SID=<ORACLE_SID> \
+       -e ORACLE_PDB=<ORACLE_PDB> \
+       -p <HOST_PORT>:1521 \
+       --mount type=bind,source=<LOCAL_DIR>,target=/opt/oracle/oradata \
+       <IMAGE_NAME>

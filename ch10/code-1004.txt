@@ -1,0 +1,10 @@
+.
+├── dbconfig
+│   └── <ORACLE_SID>
+├── fast_recovery_area
+│   └── <ORACLE_SID>
+│       └── archivelog
+└── <ORACLE_SID>
+    ├── controlfile
+    ├── datafile
+    └── onlinelog

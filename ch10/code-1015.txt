@@ -1,0 +1,4 @@
+docker run -d \
+       -e ORACLE_SID=ORCLDB \
+       -e ORACLE_PDB=PDB1 \
+...

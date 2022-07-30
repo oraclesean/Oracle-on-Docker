@@ -1,0 +1,1 @@
+docker network connect <NETWORK_NAME> <CONTAINER_NAME>

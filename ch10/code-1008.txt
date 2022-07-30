@@ -1,0 +1,1 @@
+docker network disconnect <NETWORK_NAME> <CONTAINER_NAME>

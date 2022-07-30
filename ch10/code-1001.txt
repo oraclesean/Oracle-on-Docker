@@ -1,0 +1,4 @@
+docker run --name <CONTAINER NAME> \
+       -e ORACLE_SID=<DATABASE SID> \
+...
+       <IMAGE_NAME>

@@ -1,0 +1,5 @@
+docker volume create \
+       --opt type=none \
+       --opt o=bind \
+       --opt device=<DIRECTORY_PATH> \
+       <VOLUME_NAME>

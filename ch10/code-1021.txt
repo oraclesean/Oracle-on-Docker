@@ -1,0 +1,3 @@
+docker run -d \
+       -v <VOLUME_NAME>:/opt/oracle/oradata
+...

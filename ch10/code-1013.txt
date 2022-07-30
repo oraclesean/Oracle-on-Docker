@@ -1,0 +1,3 @@
+docker image inspect \
+       --format '{{range .Config.Env}}{{printf "%s\n" .}}{{end}}' \
+       <IMAGE_NAME> | sort

@@ -1,0 +1,16 @@
+docker volume create \
+       --opt type=none \
+       --opt o=bind \
+       --opt device=<DIRECTORY_PATH> \
+       <VOLUME_NAME>
+       
+docker network create <NETWORK_NAME> --attachable --driver bridge
+
+docker run -d \
+       --name <CONTAINER_NAME> \
+       --hostname <HOST_NAME> \
+       -e ORACLE_SID=<ORACLE_SID> \
+       -e ORACLE_PDB=<ORACLE_PDB> \
+       --mount type=volume,source=<VOLUME_NAME>,target=/opt/oracle/oradata \
+       --network <NETWORK_NAME> \
+       <IMAGE_NAME>

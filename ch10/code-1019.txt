@@ -1,0 +1,3 @@
+docker run -d \
+       -v <HOST_DIRECTORY>:/opt/oracle/oradata
+...

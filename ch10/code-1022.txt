@@ -1,0 +1,3 @@
+docker run -d \
+       --mount type=volume,source=<VOLUME_NAME>,target=/opt/oracle/oradata
+...
