@@ -1,0 +1,3 @@
+RUN INSTALL_DIR=/opt/install && \
+    INSTALL_DB_BINARIES_FILE=installDBBinaries.sh && \
+    $INSTALL_DIR/$INSTALL_DB_BINARIES_FILE

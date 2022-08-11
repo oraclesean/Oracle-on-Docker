@@ -1,0 +1,25 @@
+> docker image history -H oracle/database:19.3.0-ee
+IMAGE         CREATED BY                                      SIZE
+f53962475832  /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "exec…   0B
+dceea9dcf380  /bin/sh -c #(nop)  HEALTHCHECK &{["CMD-SHELL…   0B
+e6a7408b308b  /bin/sh -c #(nop) WORKDIR /home/oracle          0B
+f94cd312d82e  /bin/sh -c #(nop)  USER oracle                  0B
+1664ac9ff6d4  /bin/sh -c $ORACLE_BASE/oraInventory/orainst…   21.8MB
+6688786dc411  /bin/sh -c #(nop)  USER root                    0B
+b6fb885c6988  /bin/sh -c #(nop) COPY --chown=oracle:dbadir…   6.19GB
+0dfd2be6867c  /bin/sh -c #(nop)  USER oracle                  0B
+64bee30fc72f  /bin/sh -c chmod ug+x $INSTALL_DIR/*.sh &&  …   184MB
+53ce8dbf2fe1  /bin/sh -c #(nop) COPY multi:db377117e0d23af…   36.8kB
+74619cb4eafe  /bin/sh -c #(nop) COPY multi:08c35eebd2349e6…   1.96kB
+bd4c7a72aa97  /bin/sh -c #(nop)  ENV PATH=/opt/oracle/prod…   0B
+167ee23df373  /bin/sh -c #(nop)  ENV ORACLE_BASE=/opt/orac…   0B
+0e43108d92e1  /bin/sh -c #(nop)  ARG INSTALL_FILE_1=LINUX.…   0B
+0de06b15c6b1  /bin/sh -c #(nop)  ARG SLIMMING=true            0B
+d1215483892c  /bin/sh -c #(nop)  LABEL provider=Oracle iss…   0B
+9ec0d85eaed0  /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>     /bin/sh -c #(nop) ADD file:b0df42f2bb614be48…   133MB
+
+> docker images
+REPOSITORY          TAG                 IMAGE ID            SIZE
+oracle/database     19.3.0-ee           f53962475832        6.53GB
+oraclelinux         7-slim              9ec0d85eaed0        133MB

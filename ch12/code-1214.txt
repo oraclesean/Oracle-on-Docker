@@ -1,0 +1,6 @@
+bash-4.2$ ls -l $INSTALL_DIR
+ls: cannot access /opt/install: No such file or directory
+bash-4.2$ find / -name $INSTALL_DB_BINARIES_FILE 2>/dev/null
+bash-4.2$ find / -name $INSTALL_FILE_1 2>/dev/null
+bash-4.2$ find / -name $INSTALL_RSP 2>/dev/null
+bash-4.2$

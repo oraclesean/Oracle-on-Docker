@@ -1,0 +1,5 @@
+“Labels”: {
+    "description" = "This is a database image"
+    "oracle_base"="/opt/oracle"
+    "oracle_home"=/opt/oracle/product/19c/dbhome_1"
+}

@@ -1,0 +1,1 @@
+$ORACLE_BASE/oraInventory/orainstRoot.sh && $ORACLE_HOME/root.sh

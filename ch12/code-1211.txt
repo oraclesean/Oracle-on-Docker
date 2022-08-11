@@ -1,0 +1,2 @@
+ARG ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+ENV ORACLE_HOME=$ORACLE_HOME

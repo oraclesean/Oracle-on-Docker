@@ -1,0 +1,2 @@
+COPY db_files/LINUX.X64_193000_db_home.zip /opt/install
+COPY db_files/LINUX* /opt/install

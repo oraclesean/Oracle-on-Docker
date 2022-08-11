@@ -1,0 +1,2 @@
+COPY --chown=oracle:dba --from=oracle/database:19.3.0-ee $ORACLE_BASE $ORACLE_BASE
+COPY --chown=oracle:dba <patch file> /opt/install

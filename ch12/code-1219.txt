@@ -1,0 +1,9 @@
+ARG ORACLE_BASE=/opt/oracle
+
+ENV ORACLE_BASE=$ORACLE_BASE \
+    ORACLE_HOME=$ORACLE_HOME \
+    PATH=$PATH:$ORACLE_HOME/bin
+
+LABEL "oracle_home"="$ORACLE_HOME" \
+      "oracle_base"="$ORACLE_BASE" \
+      "description"="This is a database image"

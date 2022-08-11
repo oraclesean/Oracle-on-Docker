@@ -1,0 +1,2 @@
+USER oracle
+WORKDIR /home/oracle

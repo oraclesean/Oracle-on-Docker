@@ -1,0 +1,2 @@
+1664ac9ff6d4  /bin/sh -c $ORACLE_BASE/oraInventory/orainst…   21.8MB
+6688786dc411  /bin/sh -c #(nop)  USER root                    0B

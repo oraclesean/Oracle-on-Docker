@@ -1,0 +1,3 @@
+ENV ORACLE_19C_HOME=$ORACLE_BASE/product/19c/dbhome_1
+COPY --chown=oracle:dba --from=oracle/database:12.2.0.1-ee $ORACLE_BASE     $ORACLE_BASE
+COPY --chown=oracle:dba --from=oracle/database:19.3.0-ee   $ORACLE_19C_HOME $ORACLE_19C_HOME

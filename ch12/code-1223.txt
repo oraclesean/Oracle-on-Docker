@@ -1,0 +1,3 @@
+docker inspect \
+     --format='{{range $p,$i:=.Config.Labels}}{{printf "%s = %s\n" $p $i}}{{end}}' \
+     <IMAGE NAME>

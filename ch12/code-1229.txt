@@ -1,0 +1,1 @@
+COPY --chown=oracle:dba --from=builder $ORACLE_BASE $ORACLE_BASE
