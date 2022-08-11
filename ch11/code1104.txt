@@ -1,0 +1,2 @@
+# Add a bashrc file to capitalize ORACLE_SID in the environment
+RUN echo 'ORACLE_SID=${ORACLE_SID:-ORCLCDB}; export ORACLE_SID=${ORACLE_SID^^}' > .bashrc

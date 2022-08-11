@@ -1,0 +1,2 @@
+[ "$CREATE_CDB" == "false" ] || CREATE_CDB=true
+sed -i -e "s|###CREATE_CDB###|$CREATE_CDB|g" "$ORACLE_BASE"/dbca.rsp

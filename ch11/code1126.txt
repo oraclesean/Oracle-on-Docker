@@ -1,0 +1,4 @@
+docker run -d \
+       -e CREATE_CDB=false
+...
+       <IMAGE_NAME>

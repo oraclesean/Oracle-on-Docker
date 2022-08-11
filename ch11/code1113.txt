@@ -1,0 +1,3 @@
+RUN echo 'ORACLE_SID=${ORACLE_SID:-ORCLCDB}; export ORACLE_SID=${ORACLE_SID^^}' > .bashrc && \
+    echo 'export ${ORACLE_PATH}=/home/oracle' >> .bashrc && \
+    echo 'set pages 9999' > /home/oracle/login.sql

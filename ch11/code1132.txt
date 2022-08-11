@@ -1,0 +1,1 @@
+[ "$CREATE_CDB" == "false" ] && PDB_CMD=database || PDB_CMD=pdbs

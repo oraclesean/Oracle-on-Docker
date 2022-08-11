@@ -1,0 +1,8 @@
+#-----------------------------------
+# Specify the installation option.
+# It can be one of the following:
+#   - INSTALL_DB_SWONLY
+#   - INSTALL_DB_AND_CONFIG
+#   - UPGRADE_DB
+#-----------------------------------
+oracle.install.option=INSTALL_DB_SWONLY

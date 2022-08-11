@@ -1,0 +1,3 @@
+[ "$CREATE_CDB" == "false" ] || PDB_CMD1="ALTER PLUGGABLE DATABASE $ORACLE_PDB SAVE STATE;"
+[ "$CREATE_CDB" == "false" ] || PDB_CMD2='GRANT SELECT ON sys.v_$pdbs TO OPS$oracle;'
+[ "$CREATE_CDB" == "false" ] || PDB_CMD3='ALTER USER OPS$oracle SET container_data=all for sys.v_$pdbs container = current;'
