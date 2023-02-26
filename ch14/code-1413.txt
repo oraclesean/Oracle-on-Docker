@@ -1,0 +1,20 @@
+> docker run 70b49717401f
+total 64
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 bin
+drwxr-xr-x    5 root     root           340 Aug 25 23:16 dev
+drwxr-xr-x    1 root     root          4096 Aug 25 23:16 etc
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 home
+drwxr-xr-x    7 root     root          4096 Aug  9 08:47 lib
+drwxr-xr-x    5 root     root          4096 Aug  9 08:47 media
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 mnt
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 opt
+-rw-r--r--    1 root     root          7868 Aug 25 19:30 passwd
+dr-xr-xr-x  345 root     root             0 Aug 25 23:16 proc
+drwx------    2 root     root          4096 Aug  9 08:47 root
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 run
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 sbin
+drwxr-xr-x    2 root     root          4096 Aug  9 08:47 srv
+dr-xr-xr-x   13 root     root             0 Aug 25 23:16 sys
+drwxrwxrwt    2 root     root          4096 Aug  9 08:47 tmp
+drwxr-xr-x    7 root     root          4096 Aug  9 08:47 usr
+drwxr-xr-x   12 root     root          4096 Aug  9 08:47 var
