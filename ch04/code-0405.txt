@@ -1,0 +1,3 @@
+docker run -d --name MYDB \
+       -v $HOME/oradata/MYDB:/opt/oracle/oradata \
+       oracle\database:19.3.0-ee
