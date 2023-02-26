@@ -1,0 +1,2 @@
+ORACLE_BASE_CONFIG=/opt/oracle
+ORACLE_BASE_HOME=/opt/oracle/homes/OraDB19Home1
