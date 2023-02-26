@@ -1,0 +1,5 @@
+> docker search -f stars=100 oracle
+NAME                              DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+oraclelinux                       Official Docker builds of Oracle Linux.         928       [OK]
+oracleinanutshell/oracle-xe-11g                                                   237
+gvenzl/oracle-xe                  Oracle Database XE (21c, 18c, 11g) for every…   115
