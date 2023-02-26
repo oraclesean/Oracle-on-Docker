@@ -1,0 +1,8 @@
+Enabling Read-Only Oracle home.
+Update orabasetab file to enable Read-Only Oracle home.
+Orabasetab file has been updated successfully.
+Create bootstrap directories for Read-Only Oracle home.
+Bootstrap directories have been created successfully.
+Bootstrap files have been processed successfully.
+Read-Only Oracle home has been enabled successfully.
+Check the log file /opt/oracle/cfgtoollogs/roohctl/roohctl-220821PM123432.log for more details.
