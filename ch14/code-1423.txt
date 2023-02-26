@@ -1,0 +1,7 @@
+> docker tag alpine-demo alpine-new
+
+> docker images
+REPOSITORY        TAG         IMAGE ID       CREATED          SIZE
+alpine-new        latest      8cf63acc1f17   26 minutes ago   5.54MB
+alpine-demo       latest      8cf63acc1f17   26 minutes ago   5.54MB
+alpine            latest      9c6f07244728   2 weeks ago      5.54MB
