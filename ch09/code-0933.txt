@@ -1,0 +1,11 @@
+> cat /etc/hosts
+127.0.0.1 localhost
+127.0.1.1 lab01
+
+#-----------Docker-Hoster-Domains----------
+172.18.0.3    dbhost2   ORCL2   e05023316788
+172.17.0.3    ORCL2   dbhost2
+172.18.0.2    3a15e84cd484   ORCL1   dbhost1
+172.17.0.2    ORCL1   dbhost1
+172.17.0.4    docker-hoster   0d6f558aa6c0
+#-----Do-not-add-hosts-after-this-line-----
