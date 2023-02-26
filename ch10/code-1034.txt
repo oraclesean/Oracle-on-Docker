@@ -1,0 +1,2 @@
+sudo mkdir /oradata /docker
+sudo chown $(id -un):$(id -gn) /docker
