@@ -1,0 +1,8 @@
+[oracle@f502c53c3c27 ~]$ hostname
+f502c53c3c27
+
+[oracle@f502c53c3c27 ~]$ exit
+exit
+
+> hostname
+SSCOTT-C02QP2DJG8WN
