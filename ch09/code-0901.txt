@@ -1,0 +1,15 @@
+> docker run -d --name ORCL1 \
+>        --hostname dbhost1 \
+>        -e ORACLE_SID=ORA1 \
+>        -e ORACLE_PDB=PDB1 \
+>        -v /oradata/ORCL1:/opt/oracle/oradata \
+>        -p 51521:1521 oracle/database:19.3.0-ee
+3a15e84cd484b98f4c2437f4b0eabe10ebeb6c965dc992c09eb1d20d96b3589e
+
+> docker run -d --name ORCL2 \
+>        --hostname dbhost2 \
+>        -e ORACLE_SID=ORA2 \
+>        -e ORACLE_PDB=PDB2 \
+>        -v /oradata/ORCL2:/opt/oracle/oradata \
+>        -p 61521:1521 oracle/database:19.3.0-ee
+e05023316788349978c96414e2c57bb489cd0d2d54d2168e2c2db2d5221af9d3
