@@ -1,0 +1,15 @@
+[oracle@dbhost1 ~]$ nslookup dbhost1
+Server:		127.0.0.11
+Address:	127.0.0.11#53
+
+Non-authoritative answer:
+Name:	dbhost1
+Address: 172.18.0.2
+
+[oracle@dbhost1 ~]$ nslookup dbhost2
+Server:		127.0.0.11
+Address:	127.0.0.11#53
+
+Non-authoritative answer:
+Name:	dbhost2
+Address: 172.18.0.3
