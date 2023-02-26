@@ -1,0 +1,4 @@
+> dps
+NAMES     IMAGE                       PORTS     STATUS
+ORA19C    oracle/database:19.3.0-ee             Up 13 days (healthy)
+ORCL      oracle/database:19.3.0-ee             Up 2 weeks (healthy)
