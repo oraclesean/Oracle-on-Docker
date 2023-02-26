@@ -1,0 +1,20 @@
+bash-4.2$ ls -l $ORACLE_BASE/dbs
+total 12
+-rw-rw---- 1 oracle oinstall 1544 Jan 21 15:57 hc_ORCLCDB.dat
+-rw-r----- 1 oracle oinstall   43 Jan 21 15:56 initORCLCDB.ora
+-rw-r----- 1 oracle oinstall   24 Jan 21 14:43 lkORCLCDB
+lrwxrwxrwx 1 oracle oinstall   49 Jan 21 15:58 orapwORCLCDB -> /opt/oracle/oradata/dbconfig/ORCLCDB/orapwORCLCDB
+lrwxrwxrwx 1 oracle oinstall   54 Jan 21 15:58 spfileORCLCDB.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/spfileORCLCDB.ora
+bash-4.2$ ls -l $ORACLE_BASE/homes/OraDB19Home1/network/admin
+total 0
+lrwxrwxrwx 1 oracle oinstall 49 Jan 21 15:58 listener.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/listener.ora
+lrwxrwxrwx 1 oracle oinstall 47 Jan 21 15:58 sqlnet.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/sqlnet.ora
+lrwxrwxrwx 1 oracle oinstall 49 Jan 21 15:58 tnsnames.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/tnsnames.ora
+bash-4.2$ ls -l /opt/oracle/oradata/dbconfig/ORCLCDB/
+total 24
+-rw-r--r-- 1 oracle oinstall  234 Jan 21 14:38 listener.ora
+-rw-r----- 1 oracle oinstall 2048 Jan 21 14:47 orapwORCLCDB
+-rw-r--r-- 1 oracle oinstall  780 Jan 21 15:58 oratab
+-rw-r----- 1 oracle oinstall 3584 Jan 21 16:17 spfileORCLCDB.ora
+-rw-r--r-- 1 oracle oinstall   54 Jan 21 14:38 sqlnet.ora
+-rw-r----- 1 oracle oinstall  197 Jan 21 15:58 tnsnames.ora
