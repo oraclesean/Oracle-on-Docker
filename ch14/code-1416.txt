@@ -1,0 +1,19 @@
+# A comment
+
+# Ignore the Dockerfile in the root directory of the build context:
+Dockerfile
+
+# Ignore all files in a directory called test:
+test/*
+
+# Ignore files in any directory that begins "patch", followed by a single character:
+patch?/*
+
+# Ignore files in any directory with a suffix of ".key"
+**/*.key
+
+# Ignore files with a ".zip" suffix in any directory immediately below the root directory:
+*/*.zip
+
+# Override the prior exclusion for files named "LINUX.X64_193000_db_home.zip":
+!*/LINUX.X64_193000_db_home.zip
