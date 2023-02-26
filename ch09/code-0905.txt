@@ -1,0 +1,3 @@
+docker container inspect \
+       --format '{{json .NetworkSettings}}' \
+       <container name> | jq
