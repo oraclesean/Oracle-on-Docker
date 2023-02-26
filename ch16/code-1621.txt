@@ -1,0 +1,13 @@
+> docker search -f is-official=true container-registry.oracle.com/database
+INDEX               NAME                              DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+oracle.com          database/enterprise               Oracle Database Enterprise Edition              0                   [OK]
+oracle.com          database/express                  Oracle Database Express Edition                 0                   [OK]
+oracle.com          database/gsm                      Oracle Global Service Manager                   0                   [OK]
+oracle.com          database/instantclient            Oracle Instant Client                           0                   [OK]
+oracle.com          database/observability-exporter   Oracle Database Observability Exporter (Metr…   0                   [OK]
+oracle.com          database/operator                 This image is part of and for use with the O…   0                   [OK]
+oracle.com          database/ords                     Oracle REST Data Services (ORDS) with Applic…   0                   [OK]
+oracle.com          database/otmm                     Oracle Transaction Manager for Microservice     0                   [OK]
+oracle.com          database/rac                      Oracle Real Application Clusters                0                   [OK]
+oracle.com          database/sqlcl                    Oracle SQLDeveloper Command Line (SQLcl)        0                   [OK]
+oracle.com          database/standard                 Oracle Database Standard Edition 2              0                   [OK]
