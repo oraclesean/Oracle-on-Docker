@@ -1,0 +1,6 @@
+# Set a default value for the ORACLE_BASE:
+ARG ORACLE_BASE=/u01/opt/oracle
+
+# Assign the ORACLE_BASE to environment variables in the image:
+ENV ORACLE_BASE=$ORACLE_BASE
+ENV ORACLE_HOME=$ORACLE_BASE/product/19c/dbhome_1
