@@ -1,0 +1,11 @@
+# Ignore all files:
+*
+
+# Add an exception for LINUX.X64_193000_db_home.zip:
+!LINUX.X64_193000_db_home.zip
+
+# Add an exception for p6880880_190000_Linux-x86-64.zip p:
+!p6880880_190000_Linux-x86-64.zip
+
+# Add an exception for the 19.15 patch:
+!patch-for-1915-RU.zip
