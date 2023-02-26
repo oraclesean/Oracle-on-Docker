@@ -1,0 +1,7 @@
+docker run -d --name MYDB  \
+           -p 10000:1521  \
+           -v $HOME/oradata/mydb/data:/opt/oracle/oradata \
+           -v $HOME/oradata/mydb/diag:/opt/oracle/diag \
+           -e ORACLE_SID=MYDB \
+           -e ORACLE_PDB=MYPDB \
+           oracle/database:19.3.0-ee
