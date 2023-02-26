@@ -1,0 +1,9 @@
+root@4a9ddd43e0e2:/# whoami
+root
+root@4a9ddd43e0e2:/# id
+uid=0(root) gid=0(root) groups=0(root)
+root@4a9ddd43e0e2:/# echo $$
+1
+root@4a9ddd43e0e2:/# head -2 /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.3 LTS (Focal Fossa)
