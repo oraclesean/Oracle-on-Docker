@@ -1,0 +1,2 @@
+scp [host or IP address]:[source file] [destination]
+docker cp [container name]:[source file] [destination]
