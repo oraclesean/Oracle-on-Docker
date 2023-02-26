@@ -1,0 +1,2 @@
+docker image history --no-trunc bitnami/mariadb
+docker image history --no-trunc mariadb
