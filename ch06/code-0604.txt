@@ -1,0 +1,2 @@
+docker container inspect --format '{{range .Config.Env}}{{printf "%s\n" .}}{{end}}' ORCL
+docker image inspect --format '{{range .Config.Env}}{{printf "%s\n" .}}{{end}}' oracle/database:19.3.0-ee
