@@ -1,0 +1,1 @@
+alias dpm='docker ps -a -s=true --no-trunc=true --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}\t{{.Size}}\t{{.Mounts}}\t{{.Status}}"'
