@@ -1,0 +1,4 @@
+> docker image prune
+WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
