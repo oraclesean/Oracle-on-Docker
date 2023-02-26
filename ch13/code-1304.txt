@@ -1,0 +1,8 @@
+> docker image history --no-trunc --format "table {{.CreatedBy}}"  oracle/database:19.3.0-ee
+CREATED BY
+...
+/bin/sh -c $ORACLE_BASE/oraInventory/orainstRoot.sh &&     $ORACLE_HOME/root.sh
+/bin/sh -c #(nop)  USER root
+/bin/sh -c #(nop) COPY --chown=oracle:dbadir:7f7ee78c2762cb56f03228b45ce0c0301ea5fd88c4ac14dd98d74eb5621054e4 in /opt/oracle
+/bin/sh -c #(nop)  USER oracle
+...
