@@ -1,0 +1,9 @@
+> docker run --rm -it \
+>        -v $HOME:/not/a/real/directory alpine
+
+/ # ls -l /not/a/real/directory/
+total 8302776
+drwx------    7 sean.scott  staff       224 Mar 26 11:44 Applications
+drwx------@  88 sean.scott  staff      2816 Apr  8 16:57 Desktop
+drwx------+  49 sean.scott  staff      1568 Mar 16 08:31 Documents
+...
