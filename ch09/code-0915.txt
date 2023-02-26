@@ -1,0 +1,4 @@
+system/oracle123@//dbhost2:1521/ORA2
+system/oracle123@//dbhost2/ORA2
+system/oracle123@//dbhost2:1521/PDB2
+system/oracle123@//dbhost2/PDB2
