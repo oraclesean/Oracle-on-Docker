@@ -1,0 +1,2 @@
+sudo mkdir -p $HOME/oradata/mydb/{data,diag}
+sudo chown -R oracle:oinstall $HOME/oradata/mydb
