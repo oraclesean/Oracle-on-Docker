@@ -1,0 +1,8 @@
+> docker pull container-registry.oracle.com/database/enterprise:19.3.0.0
+19.3.0.0: Pulling from database/enterprise
+86607bb85307: Pull complete 
+...
+5c2969cb34b8: Pull complete 
+Digest: sha256:ea9cd805ec49368fd288323e3f41d6c6e45698813e2ae89fd5d097c026ab5aa6
+Status: Downloaded newer image for container-registry.oracle.com/database/enterprise:19.3.0.0
+container-registry.oracle.com/database/enterprise:19.3.0.0
