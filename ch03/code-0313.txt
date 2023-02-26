@@ -1,0 +1,2 @@
+> docker run -it --name my_container ubuntu
+root@cadf21663737:/
