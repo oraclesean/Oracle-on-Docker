@@ -1,0 +1,5 @@
+docker run --name <CONTAINER NAME> \
+           -p <HOST PORT 1>:<CONTAINER PORT 1> \
+           -p <HOST PORT 2>:<CONTAINER PORT 2> \
+...
+           <IMAGE NAME>
