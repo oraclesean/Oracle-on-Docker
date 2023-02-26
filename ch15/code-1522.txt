@@ -1,0 +1,22 @@
+> docker history oracle/database:19.3.0-ee
+IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
+bdbb8b83217b   3 minutes ago    /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "exec…   0B
+fa9ccf999db3   3 minutes ago    /bin/sh -c #(nop)  HEALTHCHECK &{["CMD-SHELL…   0B
+a6382dfde8a3   3 minutes ago    /bin/sh -c echo 'ORACLE_SID=${ORACLE_SID:-OR…   69B
+8b9a86303988   3 minutes ago    /bin/sh -c #(nop) WORKDIR /home/oracle          0B
+2a63bb2ba0e2   3 minutes ago    /bin/sh -c #(nop)  USER oracle                  0B
+3dc4a02582f5   3 minutes ago    /bin/sh -c $ORACLE_BASE/oraInventory/orainst…   21.8MB
+b8ad822c9f7b   3 minutes ago    /bin/sh -c #(nop)  USER root                    0B
+a51c124a4630   4 minutes ago    /bin/sh -c #(nop) COPY --chown=oracle:dbadir…   6.19GB
+80165c9dd6e6   6 minutes ago    /bin/sh -c #(nop)  USER oracle                  0B
+7df11e1c33c2   13 minutes ago   /bin/sh -c echo "INSTALL_DIR = $INSTALL_DIR"…   332MB
+bd581e634499   5 weeks ago      /bin/sh -c #(nop) COPY multi:267aa3de5580180…   43kB
+2e6a13841ca5   5 weeks ago      /bin/sh -c #(nop) COPY multi:08c35eebd2349e6…   1.96kB
+2d1f2466fe4f   5 weeks ago      /bin/sh -c #(nop)  ENV PATH=/opt/oracle/prod…   0B
+6f7b027f7ba1   5 weeks ago      /bin/sh -c #(nop)  ENV ORACLE_BASE=/opt/orac…   0B
+bfa620b5677f   5 weeks ago      /bin/sh -c #(nop)  ARG INSTALL_FILE_1=LINUX.…   0B
+6fbdf293ec56   5 weeks ago      /bin/sh -c #(nop)  ARG SLIMMING=true            0B
+e930d325050c   5 weeks ago      /bin/sh -c #(nop)  LABEL provider=Oracle iss…   0B
+03c22334cf5a   2 years ago      /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>      2 years ago      /bin/sh -c #(nop) ADD file:0846801b1ef59a751…   131MB
+<missing>      2 years ago      /bin/sh -c #(nop)  LABEL org.opencontainers.…   0B
