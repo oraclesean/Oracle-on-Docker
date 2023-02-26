@@ -1,0 +1,5 @@
+<    mv "$ORACLE_HOME"/install/.docker_* "$ORACLE_BASE"/oradata/dbconfig/"$ORACLE_SID"/
+---
+>    if [ -a "$ORACLE_HOME"/install/.docker_* ]; then
+>       mv "$ORACLE_HOME"/install/.docker_* "$ORACLE_BASE"/oradata/dbconfig/"$ORACLE_SID"/
+>    fi;
