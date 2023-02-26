@@ -1,7 +1,0 @@
-[oracle@8facfd649aa4 oradata]$ pwd
-/opt/oracle/oradata
-
-[oracle@8facfd649aa4 oradata]$ ls -l
-total 8
-drwxr-x--- 4 oracle oinstall 4096 Mar  6 22:15 ORCLCDB
-drwxr-xr-x 3 oracle oinstall 4096 Mar  6 23:33 dbconfig

@@ -1,1 +1,0 @@
-* * * * * touch /home/oracle/added_by_cron

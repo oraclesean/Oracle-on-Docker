@@ -1,7 +1,0 @@
-bash-4.2# service crond status
-Redirecting to /bin/systemctl status crond.service
-Failed to get D-Bus connection: Operation not permitted
-
-bash-4.2# service crond start
-Redirecting to /bin/systemctl start crond.service
-Failed to get D-Bus connection: Operation not permitted

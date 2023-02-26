@@ -1,5 +1,0 @@
-[oracle@8facfd649aa4 ~]$ ls -l /bin/crontab
--rwsr-xr-x 1 root root 57656 Jun  9  2019 /bin/crontab
-
-[oracle@8facfd649aa4 ~]$ crontab -l
-no crontab for oracle

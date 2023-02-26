@@ -1,6 +1,0 @@
-> docker exec -it -u root ORCL bash
-bash-4.2# whoami
-root
-
-bash-4.2# hostname ORCL
-hostname: you must be root to change the hostname

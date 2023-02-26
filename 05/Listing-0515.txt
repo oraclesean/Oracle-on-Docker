@@ -1,8 +1,0 @@
-[oracle@8facfd649aa4 oradata]$ ls -l /etc/oratab
--rw-rw-r-- 1 oracle oinstall 784 Mar  6 23:33 /etc/oratab
-
-[oracle@8facfd649aa4 oradata]$ md5sum /etc/oratab
-31f3633542a9883ebd7f0eaac771ec7b  /etc/oratab
-
-[oracle@8facfd649aa4 oradata]$ md5sum $ORACLE_BASE/oradata/dbconfig/ORCLCDB/oratab
-31f3633542a9883ebd7f0eaac771ec7b  /opt/oracle/oradata/dbconfig/ORCLCDB/oratab

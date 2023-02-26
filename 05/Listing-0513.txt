@@ -1,7 +1,0 @@
-[oracle@8facfd649aa4 oradata]$ ls -l $ORACLE_HOME/network/admin
-total 8
-lrwxrwxrwx 1 oracle oinstall   49 Mar  6 23:33 listener.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/listener.ora
-drwxr-xr-x 2 oracle dba      4096 Apr 17  2019 samples
--rw-r--r-- 1 oracle dba      1536 Feb 14  2018 shrept.lst
-lrwxrwxrwx 1 oracle oinstall   47 Mar  6 23:33 sqlnet.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/sqlnet.ora
-lrwxrwxrwx 1 oracle oinstall   49 Mar  6 23:33 tnsnames.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/tnsnames.ora

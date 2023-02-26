@@ -1,7 +1,0 @@
-[oracle@8facfd649aa4 oradata]$ ls -l $ORACLE_HOME/dbs
-total 12
--rw-rw---- 1 oracle oinstall 1544 Mar  6 23:32 hc_ORCLCDB.dat
--rw-r--r-- 1 oracle dba      3079 May 14  2015 init.ora
--rw-r----- 1 oracle oinstall   24 Mar  6 22:10 lkORCLCDB
-lrwxrwxrwx 1 oracle oinstall   49 Mar  6 23:33 orapwORCLCDB -> /opt/oracle/oradata/dbconfig/ORCLCDB/orapwORCLCDB
-lrwxrwxrwx 1 oracle oinstall   54 Mar  6 23:33 spfileORCLCDB.ora -> /opt/oracle/oradata/dbconfig/ORCLCDB/spfileORCLCDB.ora
