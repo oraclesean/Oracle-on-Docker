@@ -1,0 +1,1 @@
+$ORACLE_HOME/bin/sqlplus system/oracle123@//dbhost1:1521/ORA1
