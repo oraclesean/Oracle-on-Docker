@@ -1,0 +1,13 @@
+> docker exec MYDB ls /opt/oracle/oradata/MYDB
+MYPDB
+control01.ctl
+control02.ctl
+pdbseed
+redo01.log
+redo02.log
+redo03.log
+sysaux01.dbf
+system01.dbf
+temp01.dbf
+undotbs01.dbf
+users01.dbf
