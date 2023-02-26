@@ -1,0 +1,5 @@
+> diff 19.3.0/installDBBinaries.sh 21.3.0/installDBBinaries.sh
+24c24
+< if [ "$EDITION" != "EE" -a "$EDITION" != "SE2" ]; then
+---
+> if [ "$EDITION" != "EE" ] && [ "$EDITION" != "SE2" ]; then
