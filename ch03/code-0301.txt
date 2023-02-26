@@ -1,1 +1,2 @@
-docker run -it ubuntu
+> docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
