@@ -1,0 +1,19 @@
+> docker run -d --name ORCL1 \
+>        --hostname dbhost1 \
+>        -e ORACLE_SID=ORA1 \
+>        -e ORACLE_PDB=PDB1 \
+>        -v /oradata/ORCL1:/opt/oracle/oradata \
+>        --network database-bridge \
+>        --network-alias db-alias1 \
+>        oracle/database:19.3.0-ee
+d6e027dee0a65bc4dfccd7eb43bb6143e2a54803d3b6a699bb26dc645cc814e5
+
+> docker run -d --name ORCL2 \
+>        --hostname dbhost2 \
+>        -e ORACLE_SID=ORA2 \
+>        -e ORACLE_PDB=PDB2 \
+>        -v /oradata/ORCL2:/opt/oracle/oradata \
+>        --network database-bridge \
+>        --network-alias db-alias2 \
+>        oracle/database:19.3.0-ee
+c3c1168cdb986f0a284a46eda67c41c1d4d7bfc3c8112db1920dd8be85b99889
