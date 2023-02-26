@@ -1,0 +1,3 @@
+SQL> conn system/oracle123@//ORCL1:1521/ORA1
+ERROR:
+ORA-12154: TNS:could not resolve the connect identifier specified
