@@ -1,0 +1,5 @@
+> md5sum /etc/resolv.conf
+c5dd1676e12d6ca9f7c6d03c5ca9b258  /etc/resolv.conf
+
+> docker exec -it ORCL1 bash -c "md5sum /etc/resolv.conf"
+c5dd1676e12d6ca9f7c6d03c5ca9b258  /etc/resolv.conf
