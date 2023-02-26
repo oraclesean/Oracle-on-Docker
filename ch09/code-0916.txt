@@ -1,0 +1,8 @@
+SQL> conn system/oracle123@//dbhost1:1521/ORA1
+Connected.
+SQL> conn system/oracle123@//dbhost1/ORA1
+Connected.
+SQL> conn system/oracle123@//dbhost1:1521/PDB1
+Connected.
+SQL> conn system/oracle123@//dbhost1/PDB1
+Connected.
