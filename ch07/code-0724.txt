@@ -1,0 +1,5 @@
+> docker run \
+         --mount type=bind,source=$HOME/test_mount,target=/test_mount \
+         alpine ls -l /test_mount
+docker: Error response from daemon: invalid mount config for type "bind": bind source path does not exist: /home/sean/test_mount.
+See 'docker run --help'.
