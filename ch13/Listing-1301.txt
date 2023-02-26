@@ -1,0 +1,20 @@
+#!/bin/bash
+# Create an additional pluggable database.
+
+$ORACLE_HOME/bin/dbca -silent -createPluggableDatabase -pdbName PDB2 -sourceDB $ORACLE_SID -createAsClone true -createPDBFrom DEFAULT -pdbAdminPassword "oracle123" || exit 1
+
+cat << EOF >> $ORACLE_HOME/network/admin/tnsnames.ora
+
+PDB2 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = PDB2)
+    )
+  )
+EOF
+
+$ORACLE_HOME/bin/sqlplus / as sysdba << EOF
+alter pluggable database PDB2 save state;
+EOF
