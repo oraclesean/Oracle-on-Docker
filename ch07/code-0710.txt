@@ -1,0 +1,16 @@
+> docker volume ls
+DRIVER  VOLUME NAME
+local   2ac7d7486083a10a4ed313699e06eba017e63ba
+local   4efabdab067033c973d00e73de9a05121e0cb70
+local   9fc0fdc81eabd71a07f28a8d79fd2c1a5606747
+local   84c91dc6a3f0cb354243cb9ee2ca5a79933ca67
+local   ORA216_data
+local   ORA216_diag
+local   ORA216_audit
+local   ORA1915_data
+local   ORA1915_diag
+local   ORA1915_audit
+local   oradata_ORCL1_data
+local   oradata_ORCL1_diag
+local   oradata_ORCL1_audit
+local   b26d713b83be8ac8f549f825d19cc2b6e6f19a6
