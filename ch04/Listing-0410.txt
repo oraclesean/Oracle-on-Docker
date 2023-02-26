@@ -1,0 +1,27 @@
+> docker exec MYDB ./setPassword.sh NewPassword1
+The Oracle base remains unchanged with value /opt/oracle
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Mon Mar 1 20:25:55 2021
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> 
+User altered.
+
+SQL> 
+User altered.
+
+SQL> 
+Session altered.
+
+SQL> 
+User altered.
+
+SQL> Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
