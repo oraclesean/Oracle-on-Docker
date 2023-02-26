@@ -1,0 +1,19 @@
+> docker volume create --opt type=none --opt o=bind --opt device=/oradata/ORA11G oradata_ORA11G
+oracle_data
+> docker volume ls
+DRIVER              VOLUME NAME
+local               oradata_ORA11G
+> docker volume inspect oradata_ORA11G
+[
+    {
+        "Driver": "local",
+        "Mountpoint": "/var/lib/docker/volumes/oradata_ORA11G/_data",
+        "Name": "oradata_ORA11G",
+        "Options": {
+            "device": "/oradata/ORA11G",
+            "o": "bind",
+            "type": "none"
+        },
+        "Scope": "local"
+    }
+]
