@@ -1,0 +1,8 @@
+"${CONTAINER_RUNTIME}" build --force-rm=false --no-cache=false \
+       "${BUILD_OPTS[@]}" "${PROXY_SETTINGS[@]}" --build-arg DB_EDITION=${EDITION} \
+       -t "${IMAGE_NAME}" -f "${DOCKERFILE}" . || {
+  echo ""
+  echo "ERROR: Oracle Database container image was NOT successfully created."
+  echo "ERROR: Check the output and correct any reported problems with the build operation."
+  exit 1
+}
