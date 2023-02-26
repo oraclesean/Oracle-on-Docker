@@ -1,0 +1,42 @@
+> docker network connect database-bridge ORCL1
+> docker network connect database-bridge ORCL2
+> docker network inspect database-bridge
+[
+    {
+        "Name": "database-bridge",
+        "Id": "9dfba096bf9a740e...",
+        "Scope": "local",
+        "Driver": "bridge",
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": true,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "3a15e84cd484b98f...": {
+                "Name": "ORCL1",
+                "EndpointID": "e4cb8fea4b119625...",
+                "IPv4Address": "172.18.0.2/16"
+            },
+            "e050233167883499...": {
+                "Name": "ORCL2",
+                "EndpointID": "a6d9108c93c9b376...",
+                "IPv4Address": "172.18.0.3/16"
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
