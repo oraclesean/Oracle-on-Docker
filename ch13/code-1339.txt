@@ -1,0 +1,10 @@
+/opt/oracle/runOracle.sh
+/opt/oracle/createObserver.sh
+/opt/oracle/relinkOracleBinary.sh
+/opt/oracle/setPassword.sh
+/opt/oracle/checkDBStatus.sh
+/opt/oracle/runUserScripts.sh
+/opt/oracle/configTcps.sh
+/opt/oracle/createDB.sh
+/opt/oracle/dbca.rsp.tmpl
+/opt/oracle/startDB.sh
