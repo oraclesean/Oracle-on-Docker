@@ -1,0 +1,5 @@
+Step 9/24 : RUN echo "INSTALL_DIR = $INSTALL_DIR" && echo "INSTALL_DB_BINARIES_FILE = $INSTALL_DB_BINARIES_FILE" && echo "DB_EDITION = $DB_EDITION" && chmod ug+x $INSTALL_DIR/*.sh && sync && $INSTALL_DIR/$CHECK_SPACE_FILE && $INSTALL_DIR/$SETUP_LINUX_FILE && rm -rf $INSTALL_DIR
+ ---> Running in e5331bac34fc
+INSTALL_DIR = /opt/install
+INSTALL_DB_BINARIES_FILE = installDBBinaries.sh
+DB_EDITION =
