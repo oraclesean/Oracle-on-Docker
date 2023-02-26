@@ -1,0 +1,23 @@
+> sql system/oracle123@ORCL1:1521/ORA1
+
+SQLcl: Release 22.2 Production on Mon Jul 18 14:32:40 2022
+Copyright (c) 1982, 2022, Oracle.  All rights reserved.
+Last Successful login time: Mon Jul 18 2022 14:32:41 +00:00
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> select host_name from v$instance;
+
+HOST_NAME
+____________
+dbhost1
+
+SQL> conn system/oracle123@//dbhost2:1521/ORA2
+Connected.
+SQL> select host_name from v$instance;
+
+HOST_NAME
+____________
+dbhost2
