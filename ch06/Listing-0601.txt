@@ -1,0 +1,6 @@
+docker exec -it ORCL bash
+[oracle@8facfd649aa4 ~]$ env | grep ORACLE
+ORACLE_BASE=/opt/oracle
+ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+[oracle@8facfd649aa4 ~]$ ps -ef | grep pmon | grep -v grep
+oracle        88       1  0 Jan1 ?        00:00:16 ora_pmon_ORCLCDB
