@@ -1,0 +1,2 @@
+docker tag oraclesean/db:11.2.0.4-EE oracleondocker/database:11.2.0.4-EE
+docker tag c1015174e910 oracleondocker/database:11.2.0.4-EE
