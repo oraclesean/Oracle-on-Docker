@@ -1,0 +1,4 @@
+> docker rmi alpine:demo
+Untagged: alpine:demo
+Deleted: sha256:8cf63acc1f17c28d78ce7efac26f19f428847e895db81182ec1063e41b4246b4
+Deleted: sha256:1d5ae09bcac7b79cb3dea2209118be4199b2cc91050968aca0037daea0a4728c
