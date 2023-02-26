@@ -1,0 +1,13 @@
+> ln -s /etc/passwd demo/linked_file
+
+> ls -l ./demo
+total 16
+lrwxr-xr-x  1 seanscott  staff    11 Aug 25 17:28 linked_file -> /etc/passwd
+-rw-r--r--  1 seanscott  staff  7868 Aug 25 13:30 passwd
+
+> docker build -f ./Dockerfile ./demo
+Sending build context to Docker daemon   10.8kB
+Step 1/3 : FROM alpine
+ ---> 9c6f07244728
+Step 2/3 : COPY * /
+COPY failed: file not found in build context or excluded by .dockerignore: stat linked_file: file does not exist
