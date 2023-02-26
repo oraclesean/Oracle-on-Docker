@@ -1,0 +1,4 @@
+> dpm
+NAMES     IMAGE                       PORTS     SIZE                      MOUNTS    STATUS
+ORA19C    oracle/database:19.3.0-ee             5.04GB (virtual 11.7GB)             Up 13 days (healthy)
+ORCL      oracle/database:19.3.0-ee             5.35GB (virtual 12GB)               Up 2 weeks (healthy)
