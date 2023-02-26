@@ -1,0 +1,4 @@
+docker run ... \
+       --mount type=bind,source=$HOME/dbstartup,target=/opt/oracle/scripts/startup \ 
+       --mount type=bind,source=$HOME/dbsetup,target=/opt/oracle/scripts/setup \
+...
