@@ -1,0 +1,5 @@
+SQL> conn system/oracle@//localhost:1521/ORCLCDB
+Connected.
+
+SQL> conn system/oracle@//localhost/ORCLCDB
+Connected.
