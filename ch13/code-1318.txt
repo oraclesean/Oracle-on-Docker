@@ -1,0 +1,2 @@
+#orabasetab file is used to track Oracle Home associated with Oracle Base
+/opt/oracle/product/19c/dbhome_1:/opt/oracle:OraDB19Home1:N:
