@@ -1,0 +1,3 @@
+ARG IMAGE_NAME=oraclelinux:7-slim
+FROM $IMAGE_NAME
+...
