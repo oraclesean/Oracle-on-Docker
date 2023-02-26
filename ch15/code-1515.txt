@@ -1,0 +1,5 @@
+> docker logs -f adoring_colden
+bash-4.2$ ps -ef | grep oracle
+oracle         1       0  0 21:07 pts/0    00:00:00 bash
+oracle       132       1  0 21:12 pts/0    00:00:00 ps -ef
+oracle       133       1  0 21:12 pts/0    00:00:00 grep oracle
