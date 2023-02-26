@@ -1,0 +1,9 @@
+docker run --name <CONTAINER NAME> \
+           -p <HOST PORT>:<CONTAINER PORT> \
+...
+           <IMAGE NAME>
+
+docker run --name <CONTAINER NAME> \
+           --publish <HOST PORT>:<CONTAINER PORT> \
+...
+           <IMAGE NAME>
