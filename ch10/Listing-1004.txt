@@ -1,0 +1,18 @@
+CONTAINER_NAME=test
+ORACLE_SID=ORCLCDB
+ORACLE_PDB=ORCLPDB1
+
+mkdir -p /oradata/${CONTAINER_NAME}
+
+docker volume create --opt type=none --opt o=bind \
+       --opt device=/oradata/${CONTAINER_NAME} \
+       ${CONTAINER_NAME}_data
+
+docker run -d \
+       --name ${CONTAINER_NAME} \
+       -e ORACLE_SID=${ORACLE_SID} \
+       -e ORACLE_PDB={ORACLE_PDB} \
+       --volume ${CONTAINER_NAME}_data:/opt/oracle/oradata \
+       --volume /oradata/scripts:/scripts \
+       --network oracle-db \
+       oracle/database:19.3.0-ee
