@@ -1,0 +1,2 @@
+> docker rm -f fervent_mendeleev
+fervent_mendeleev
