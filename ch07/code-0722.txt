@@ -1,0 +1,2 @@
+> docker inspect -f "{{ .Mounts }}" ORCL
+[{bind  /oradata/ORCL /opt/oracle/oradata   true rprivate}]
