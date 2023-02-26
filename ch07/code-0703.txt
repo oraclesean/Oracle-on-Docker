@@ -1,0 +1,5 @@
+~/oradata> du -sh ./*
+1.5G	./ORA11G
+2.0G	./ORA12C
+2.9G	./ORA19C
+4.8G	./ORA21C
