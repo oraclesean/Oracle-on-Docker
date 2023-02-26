@@ -1,0 +1,6 @@
+> docker history 8cf63acc1f17
+IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+8cf63acc1f17   2 minutes ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "ls -…   0B
+1d5ae09bcac7   2 minutes ago   /bin/sh -c #(nop) COPY file:a45abb589c97bd2f…   34B
+9c6f07244728   2 weeks ago     /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B
+<missing>      2 weeks ago     /bin/sh -c #(nop) ADD file:2a949686d9886ac7c…   5.54MB
