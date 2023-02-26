@@ -1,0 +1,35 @@
+> docker network inspect bridge
+[
+    {
+        "Name": "bridge",
+        "Id": "0201c1b85336336a...",
+        "Scope": "local",
+        "Driver": "bridge",
+        "IPAM": {
+            "Driver": "default",
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Containers": {
+            "3a15e84cd484b98f...": {
+                "Name": "ORCL1",
+                "IPv4Address": "172.17.0.2/16"
+            },
+            "e050233167883499...": {
+                "Name": "ORCL2",
+                "IPv4Address": "172.17.0.3/16"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0"
+        },
+    }
+]
