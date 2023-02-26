@@ -1,0 +1,14 @@
+[oracle@8facfd649aa4 oradata]$ ls -l ORCLCDB
+total 2341684
+drwxr-x--- 2 oracle oinstall      4096 Mar  6 23:32 ORCLPDB1
+-rw-r----- 1 oracle oinstall  18726912 Mar  7 01:44 control01.ctl
+-rw-r----- 1 oracle oinstall  18726912 Mar  7 01:44 control02.ctl
+drwxr-x--- 2 oracle oinstall      4096 Mar  6 22:37 pdbseed
+-rw-r----- 1 oracle oinstall 209715712 Mar  7 00:38 redo01.log
+-rw-r----- 1 oracle oinstall 209715712 Mar  7 01:44 redo02.log
+-rw-r----- 1 oracle oinstall 209715712 Mar  6 23:32 redo03.log
+-rw-r----- 1 oracle oinstall 545267712 Mar  7 01:41 sysaux01.dbf
+-rw-r----- 1 oracle oinstall 933240832 Mar  7 01:41 system01.dbf
+-rw-r----- 1 oracle oinstall  33562624 Mar  6 22:44 temp01.dbf
+-rw-r----- 1 oracle oinstall 246423552 Mar  7 01:43 undotbs01.dbf
+-rw-r----- 1 oracle oinstall   5251072 Mar  7 00:43 users01.dbf
