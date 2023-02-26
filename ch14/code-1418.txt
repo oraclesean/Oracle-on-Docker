@@ -1,0 +1,8 @@
+# Ignore files in the "software" directory:
+software/*
+
+# Ignore files in any directory that end in ".zip"
+**/*.zip
+
+# Include the "software/LINUX.X64_193000_db_home.zip" file:
+!software/LINUX.X64_193000_db_home.zip
