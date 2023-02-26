@@ -1,0 +1,24 @@
+CONTAINER_NAME=prod
+ORACLE_SID=ORCLCDB
+ORACLE_PDB=ORCLPDB1
+
+ for dir in audit data diag
+  do mkdir -p /oradata/${CONTAINER_NAME}/${dir}
+     docker volume create --opt type=none --opt o=bind \
+            --opt device=/oradata/${CONTAINER_NAME}/${dir} \
+            ${CONTAINER_NAME}_${dir}
+done
+
+mkdir -p /oradata/${CONTAINER_NAME}_entry/{setup,startup}
+
+docker run -d \
+       --name ${CONTAINER_NAME} \
+       -e ORACLE_SID=${ORACLE_SID} \
+       -e ORACLE_PDB={ORACLE_PDB} \
+       --volume ${CONTAINER_NAME}_data:/opt/oracle/oradata \
+       --volume ${CONTAINER_NAME}_diag:/opt/oracle/diag \
+       --volume ${CONTAINER_NAME}_audit:/opt/oracle/admin \
+       --volume /oradata/${CONTAINER_NAME}_entry:/opt/oracle/scripts \
+       --volume /oradata/scripts:/scripts \
+       --network oracle-db \
+       oracle/database:19.3.0-ee
