@@ -1,0 +1,3 @@
+sudo groupadd -g 54321 oinstall
+sudo useradd -u 54321 -g oinstall
+sudo chown oracle:oinstall /oradata
