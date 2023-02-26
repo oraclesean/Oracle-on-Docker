@@ -1,0 +1,4 @@
+SQL> conn system/oracle123@//ORCL1:1521/ORA1
+Connected.
+SQL> conn system/oracle123@//ORCL2:1521/ORA2
+Connected.
