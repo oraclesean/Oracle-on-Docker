@@ -1,0 +1,4 @@
+system/oracle123@//lab1:61521/ORA2
+system/oracle123@//localhost:61521/ORA2
+system/oracle123@//lab1:61521/PDB2
+system/oracle123@//localhost:61521/PDB2
