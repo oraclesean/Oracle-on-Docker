@@ -1,0 +1,2 @@
+docker build -f Dockerfile.19.15 .
+docker build -f Dockerfile.19.16 .
