@@ -1,0 +1,6 @@
+> docker run \
+         --volume $HOME/test_volume:/test_volume \
+         alpine ls -l /test_volume
+total 0
+> ls -l $HOME
+drwxr-xr-x  2 root root       4096 Sep 18 19:36  test_volume
