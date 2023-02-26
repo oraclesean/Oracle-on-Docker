@@ -1,0 +1,9 @@
+di() {
+  case $1 in
+    env)   docker inspect --format '{{range .Config.Env}} {{printf "%s\n" .}} {{end}}' $2 | sort ;;
+    ip)    docker inspect --format '{{range.NetworkSettings.Networks}} {{.IPAddress}} {{end}}' $2 ;;
+    ports) docker inspect --format '{{range $p,$i := .NetworkSettings.Ports}} {{$p}} -> {{(index $i 0).HostPort}} {{end}}' $2 ;;
+    mount) docker inspect --format '{{.Name}} {{.Options.o}}:{{.Options.device}}' $2 ;;
+    *) ;;
+  esac
+}
