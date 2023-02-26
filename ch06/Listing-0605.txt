@@ -1,0 +1,3 @@
+for dbname in DEV TEST STAGE
+  do docker run -d --name $dbname -e ORACLE_SID=$dbname oracle/database:19.3.0-ee
+done
