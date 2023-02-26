@@ -1,0 +1,11 @@
+[oracle@8facfd649aa4 ~]$ date
+Mon Jan  7 00:10:01 UTC 2022
+[oracle@8facfd649aa4 ~]$ ls -l /home/oracle
+total 0
+lrwxrwxrwx 1 root root 26 Apr 10  2021 setPassword.sh -> /opt/oracle/setPassword.sh
+
+[oracle@8facfd649aa4 ~]$ date
+Mon Jan  7 00:44:26 UTC 2022
+[oracle@8facfd649aa4 ~]$ ls -l /home/oracle
+total 0
+lrwxrwxrwx 1 root root 26 Apr 10  2021 setPassword.sh -> /opt/oracle/setPassword.sh
