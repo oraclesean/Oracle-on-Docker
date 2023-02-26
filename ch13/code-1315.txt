@@ -1,0 +1,7 @@
+  if ! [[ $PDB_COUNT =~ '^[0-9]+$' ]]             # PDB_COUNT must be a number
+then PDB_COUNT=1
+elif [ "$PDB_COUNT" -ge 1 -a "$PDB_COUNT" -le 5 ] # PDB_COUNT must be between 1 and 5
+then PDB_COUNT=$PDB_COUNT
+else PDB_COUNT=1                                  # Set all other cases to the default
+fi
+sed -i -e "s|###PDB_COUNT###|$PDB_COUNT|g" "$ORACLE_BASE"/dbca.rsp
