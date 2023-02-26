@@ -1,0 +1,36 @@
+> docker network ls
+NETWORK ID     NAME              DRIVER    SCOPE
+0201c1b85336   bridge            bridge    local
+9dfba096bf9a   database-bridge   bridge    local
+8e74549be878   host              host      local
+d0ce1f7bd49f   none              null      local
+
+> docker network inspect database-bridge
+[
+    {
+        "Name": "database-bridge",
+        "Id": "9dfba096bf9a740e...",
+        "Scope": "local",
+        "Driver": "bridge",
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": true,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {},
+        "Options": {},
+        "Labels": {}
+    }
+]
