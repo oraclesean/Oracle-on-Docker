@@ -1,0 +1,27 @@
+> docker container inspect \
+>        --format '{{json .NetworkSettings}}' \
+>        ORCL1 | jq
+
+{
+  "Bridge": "",
+  "Ports": {
+    "1521/tcp": [
+      {
+        "HostIp": "0.0.0.0",
+        "HostPort": "51521"
+      }
+    ]
+  },
+  "EndpointID": "c3a9bbde24705f37516...",
+  "Gateway": "172.17.0.1",
+  "IPAddress": "172.17.0.2",
+  "Networks": {
+    "bridge": {
+      "Aliases": null,
+      "NetworkID": "0201c1b85336336a...",
+      "EndpointID": "c3a9bbde24705f37...",
+      "Gateway": "172.17.0.1",
+      "IPAddress": "172.17.0.2"
+    }
+  }
+}
