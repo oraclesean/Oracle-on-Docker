@@ -1,0 +1,3 @@
+[wsl2]
+processors=4 # Limit of 4 processors for WSL.
+memory=8GB   # Limit WSL to 8GB memory.
