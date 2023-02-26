@@ -1,0 +1,1 @@
+docker exec <CONTAINER_NAME> /opt/oracle/setPassword.sh <PASSWORD>
