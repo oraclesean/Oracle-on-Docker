@@ -1,0 +1,4 @@
+root@4a9ddd43e0e2:/# vi /etc/os-release
+bash: vi: command not found
+root@4a9ddd43e0e2:/# nano test.txt
+bash: nano: command not found
