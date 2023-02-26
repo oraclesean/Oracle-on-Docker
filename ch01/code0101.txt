@@ -1,0 +1,17 @@
+version: '3'
+services: 
+  DENVER:
+    image: oracledb:19.10-ee
+    container_name: DENVER
+    environment:
+      ORACLE_SID: ORCL
+      DB_UNQNAME: DENVER
+      ROLE: PRIMARY
+
+  DALLAS:
+    image: oracledb:19.10-ee
+    container_name: DALLAS
+    environment:
+      ORACLE_SID: ORCL
+      DB_UNQNAME: DALLAS
+      ROLE: STANDBY
