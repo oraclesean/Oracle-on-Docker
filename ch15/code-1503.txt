@@ -1,0 +1,6 @@
+RUN echo "INSTALL_DIR = $INSTALL_DIR" && \
+    echo "INSTALL_DB_BINARIES_FILE = $INSTALL_DB_BINARIES_FILE" && \
+    echo "DB_EDITION = $DB_EDITION" && \
+    chmod ug+x $INSTALL_DIR/*.sh && \
+    sync && \
+    $INSTALL_DIR/$INSTALL_DB_BINARIES_FILE $DB_EDITION
