@@ -1,0 +1,5 @@
+> docker start fervent_mendeleev
+fervent_mendeleev
+> docker ps -a
+CONTAINER ID   IMAGE   COMMAND  CREATED      STATUS                      PORTS           NAMES
+4a9ddd43e0e2   ubuntu  "bash"   2 hours ago  Up 3 seconds                                fervent_mendeleev
