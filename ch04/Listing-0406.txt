@@ -1,0 +1,11 @@
+#########################
+DATABASE IS READY TO USE!
+#########################
+
+Datafiles are already patched. Skipping datapatch run.
+
+The following output is now a tail of the alert.log:
+ORCLPDB1(3):
+ORCLPDB1(3):XDB initialized.
+2021-03-01T17:32:38.353181+00:00
+ALTER SYSTEM SET control_files='/opt/oracle/oradata/MYDB/control01.ctl' SCOPE=SPFILE;
