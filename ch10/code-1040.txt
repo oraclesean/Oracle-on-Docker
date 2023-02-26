@@ -1,0 +1,5 @@
+docker run -d \
+       --name oracle-db-dns \
+       -v /var/run/docker.sock:/tmp/docker.sock \
+       -v /etc/hosts:/tmp/hosts \
+       dvdarias/docker-hoster
