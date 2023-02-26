@@ -1,0 +1,3 @@
+> docker network disconnect bridge ORCL1
+> docker network disconnect bridge ORCL2
+> docker network disconnect docker-hoster
