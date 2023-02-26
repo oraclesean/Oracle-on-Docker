@@ -1,0 +1,4 @@
+> ls -l $HOME
+total 7386868
+drwxrwxr-x 32 sean   sean       4096 Aug 20 17:06  docker-images
+drwxr-xr-x  4 oracle 54322        61 Sep 18 22:26  oracle_bind
