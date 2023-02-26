@@ -1,0 +1,11 @@
+> docker run -d \
+       --name TEST \
+       --expose 1521 \
+       --expose 5500 \
+       -P oracle/database:19.3.0-ee
+0d34bb1d59f85b67b90f19db16d0ab09b91ee000c81187f8847c4fe2f6c186eb
+
+> docker ps -a \
+       --format "table {{.Names}}\t{{.Ports}}"
+NAMES     PORTS
+TEST      0.0.0.0:49157->1521/tcp, 0.0.0.0:49156->5500/tcp
