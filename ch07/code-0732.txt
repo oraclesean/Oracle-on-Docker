@@ -1,0 +1,5 @@
+> docker volume create --opt type=none --opt o=bind \
+>        --opt device=$HOME/oracle_bind oracle_bind
+oracle_bind
+
+> mkdir -p $HOME/oracle_bind
