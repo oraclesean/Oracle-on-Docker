@@ -1,0 +1,22 @@
+#############################################
+# -------------------------------------------
+# Start new layer for database runtime
+# -------------------------------------------
+#############################################
+
+FROM base
+
+ARG ENV=prod
+
+USER oracle
+COPY --chown=oracle:dba --from=builder $ORACLE_BASE $ORACLE_BASE
+
+USER root
+RUN $ORACLE_BASE/oraInventory/orainstRoot.sh && \
+    $ORACLE_HOME/root.sh
+
+USER oracle
+WORKDIR /home/oracle
+
+# Add an environment-specific bashrc file to the image
+COPY bashrc.$ENV /home/oracle/.bashrc
