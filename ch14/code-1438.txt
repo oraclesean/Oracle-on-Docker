@@ -1,0 +1,16 @@
+> docker builder prune
+WARNING! This will remove all dangling build cache. Are you sure you want to continue? [y/N] y
+Deleted build cache objects:
+h5x3svswlc8ju3p6kpfp3kfxq
+zq3ddt7nkeurbb7dw9wh87yfv
+vhxgyd4wznuu43d8petp2byq0
+7xesrmsi56gium8iir4e3wdey
+krhuiazatl6wovkvljxnicdyr
+s6p7a4olr4ioaj8rjo0klbehr
+vxc9v14ogunwqi2see58xmj35
+fm2kxjek8n93c91sczhp4ld3z
+wodldqvqsfgtd40s8ulo3nkb2
+b1ua49rpznnz4t1wk4c16zzqr
+ssz3lpns9rxxp2agb2011kvwl
+
+Total reclaimed space: 48.38MB
