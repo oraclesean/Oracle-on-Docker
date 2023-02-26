@@ -1,0 +1,2 @@
+sudo mkdir -p /oradata/ORCL
+sudo chown oracle:oinstall /oradata/ORCL
