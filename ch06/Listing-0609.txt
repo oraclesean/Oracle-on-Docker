@@ -1,0 +1,17 @@
+> docker run -d -e ORACLE_SID=ORA19C -e ORACLE_PDB=PDB1 --name ORA19C oracle/database:19.3.0-ee
+aba0514d7fb36e70777c69ca4a6b619e3fbdca1f8a13a95935fed8e48c7722c3
+
+> docker container inspect --format '{{range .Config.Env}}{{printf "%s\n" .}}{{end}}' ORA19C | grep ORACLE
+ORACLE_BASE=/opt/oracle
+ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+ORACLE_PDB=PDB1
+ORACLE_SID=ORA19C
+
+> docker exec -it ORA19C bash
+[oracle@aba0514d7fb3 ~]$ env | grep ORACLE
+ORACLE_SID=ORA19C
+ORACLE_BASE=/opt/oracle
+ORACLE_PDB=PDB1
+ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+[oracle@aba0514d7fb3 ~]$ ps -ef | grep pmon
+oracle      5072       1  0 21:21 ?        00:00:00 ora_pmon_ORA19C
