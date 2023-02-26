@@ -1,0 +1,17 @@
+> ifconfig veth9e1e709
+veth9e1e709: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::f412:9dff:fed8:b8c2  prefixlen 64  scopeid 0x20<link>
+        ether f6:12:9d:d8:b8:c2  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 18  bytes 1532 (1.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+> ifconfig vetheb94b3f
+vetheb94b3f: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::705e:8aff:fe63:8d14  prefixlen 64  scopeid 0x20<link>
+        ether 72:5e:8a:63:8d:14  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13  bytes 1006 (1.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
