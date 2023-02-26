@@ -1,0 +1,5 @@
+docker run -d --name SETUP \
+           -e ORACLE_SID=ORCLPDB \
+           -e ORACLE_PDB=PDB1 \
+           -v ~/setup:/opt/oracle/scripts/setup \
+           oracle/database:19.3.0-ee
