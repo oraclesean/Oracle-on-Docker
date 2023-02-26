@@ -1,0 +1,14 @@
+> docker volume inspect ORA216_data
+[
+    {
+        "Driver": "local",
+        "Mountpoint": "/var/lib/docker/volumes/ORA216_data /_data",
+        "Name": "ORA216_data",
+        "Options": {
+            "device": "/oradata/ORA216_data",
+            "o": "bind",
+            "type": "none"
+        },
+        "Scope": "local"
+    }
+]
