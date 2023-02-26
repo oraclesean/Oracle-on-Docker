@@ -1,0 +1,22 @@
+> docker volume create oradata
+oradata
+
+> docker volume ls
+DRIVER    VOLUME NAME
+local     oradata
+
+> docker volume inspect oradata
+[
+    {
+        "CreatedAt": "2022-01-01T12:00:00Z",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/oradata/_data",
+        "Name": "oradata",
+        "Options": {},
+        "Scope": "local"
+    }
+]
+
+> docker volume rm oradata
+oradata
