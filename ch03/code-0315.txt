@@ -1,0 +1,5 @@
+> docker ps -as
+CONTAINER ID   IMAGE         SIZE
+a5bf2c163d07   ubuntu        0B (virtual 72.8MB)
+cadf21663737   ubuntu        33.9MB (virtual 107MB)
+d3f700a3aae2   ubuntu_editor 0B (virtual 107MB
