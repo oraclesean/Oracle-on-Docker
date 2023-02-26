@@ -1,0 +1,20 @@
+> docker run -d -e ORACLE_HOME=/home/oracle --name OOPS oracle/database:19.3.0-ee
+1c32eb9d016e723256e47199e5801d3bcd4cc64c87099cc40057028cd0177eba
+
+> docker logs -f OOPS
+/opt/oracle/relinkOracleBinary.sh: line 13: /home/oracle/bin/oraversion: No such file or directory
+/usr/bin/ar: /home/oracle/lib/libedtn.a: No such file or directory
+ORACLE EDITION:
+touch: cannot touch '/home/oracle/install/.docker_': No such file or directory
+ORACLE PASSWORD FOR SYS, SYSTEM AND PDBADMIN: vXy8JX7aiE4=1
+
+LSNRCTL for Linux: Version 19.0.0.0.0 - Production on 11-JAN-2022 21:52:59
+
+Copyright (c) 1991, 2019, Oracle.  All rights reserved.
+
+Message 1070 not found; No message file for product=network, facility=TNSTNS-12545: Message 12545 not found; No message file for product=network, facility=TNS
+ TNS-12560: Message 12560 not found; No message file for product=network, facility=TNS
+  TNS-00515: Message 515 not found; No message file for product=network, facility=TNS
+   Linux Error: 2: No such file or directory
+cat: /opt/oracle/cfgtoollogs/dbca/ORCLCDB/ORCLCDB.log: No such file or directory
+cat: /opt/oracle/cfgtoollogs/dbca/ORCLCDB.log: No such file or directory
