@@ -1,0 +1,4 @@
+docker run --name ORCL \
+           -p 51521:1521 \
+...
+           oracle/database:19.3.0-ee
