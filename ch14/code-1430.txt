@@ -1,0 +1,3 @@
+REPOSITORY       TAG         IMAGE ID       CREATED        SIZE
+oracle/database  19.3.0-ee   1b588736c8c1   2 months ago   6.67GB
+oraclelinux      7-slim      9ec0d85eaed0   4 months ago   133MB
