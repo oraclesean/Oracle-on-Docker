@@ -1,0 +1,13 @@
+> docker push oracleondocker/database:11.2.0.4-EE
+The push refers to repository [docker.io/oracleondocker/database]
+5f70bf18a086: Pushed
+d67ad3eaa615: Pushed
+fb92f0f7e7a1: Pushed
+8741e0584bcd: Pushed
+b9cd4d53c8a0: Pushed
+0c7211f52f51: Pushed
+59e93d414d42: Pushed
+4fa651f55709: Pushed
+4d82e938e5ad: Pushed
+d7d3f0b240dc: Mounted from library/oraclelinux
+11.2.0.4-EE: digest: sha256:e94665072e69fa398181a9d852d193beee5ca3fedfe65c26c8684762b90c710f size: 2417
