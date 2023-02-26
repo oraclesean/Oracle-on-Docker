@@ -1,0 +1,8 @@
+FROM oraclelinux:7-slim as base
+<snip>
+
+FROM base AS builder
+<snip>
+
+FROM base
+<snip>
