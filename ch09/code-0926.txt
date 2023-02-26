@@ -1,0 +1,4 @@
+[oracle@dbhost1 ~]$ cat /etc/resolv.conf
+search Home
+nameserver 127.0.0.11
+options ndots:0
