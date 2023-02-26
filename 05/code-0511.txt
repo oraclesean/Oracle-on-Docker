@@ -1,0 +1,2 @@
+[oracle@8facfd649aa4 ~]$ crontab -l
+* * * * * touch /home/oracle/added_by_cron
