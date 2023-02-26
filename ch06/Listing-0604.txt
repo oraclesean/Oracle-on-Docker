@@ -1,0 +1,21 @@
+> docker container inspect --format '{{range .Config.Env}}{{printf "%s\n" .}}{{end}}' ORCL
+PATH=/opt/oracle/product/19c/dbhome_1/bin:/opt/oracle/product/19c/dbhome_1/OPatch/:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ORACLE_BASE=/opt/oracle
+ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+INSTALL_DIR=/opt/install
+INSTALL_FILE_1=LINUX.X64_193000_db_home.zip
+INSTALL_RSP=db_inst.rsp
+CONFIG_RSP=dbca.rsp.tmpl
+PWD_FILE=setPassword.sh
+RUN_FILE=runOracle.sh
+START_FILE=startDB.sh
+CREATE_DB_FILE=createDB.sh
+SETUP_LINUX_FILE=setupLinuxEnv.sh
+CHECK_SPACE_FILE=checkSpace.sh
+CHECK_DB_FILE=checkDBStatus.sh
+USER_SCRIPTS_FILE=runUserScripts.sh
+INSTALL_DB_BINARIES_FILE=installDBBinaries.sh
+RELINK_BINARY_FILE=relinkOracleBinary.sh
+SLIMMING=true
+LD_LIBRARY_PATH=/opt/oracle/product/19c/dbhome_1/lib:/usr/lib
+CLASSPATH=/opt/oracle/product/19c/dbhome_1/jlib:/opt/oracle/product/19c/dbhome_1/rdbms/jlib
