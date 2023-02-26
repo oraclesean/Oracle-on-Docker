@@ -1,0 +1,22 @@
+Launching Oracle Database Setup Wizard...
+
+[WARNING] [INS-32055] The Central Inventory is located in the Oracle base.
+   ACTION: Oracle recommends placing this Central Inventory in a location outside the Oracle base directory.
+[WARNING] [INS-13014] Target environment does not meet some optional requirements.
+   CAUSE: Some of the optional prerequisites are not met. See logs for details. installActions2022-09-24_10-13-19PM.log
+   ACTION: Identify the list of failed prerequisite checks from the log: installActions2022-09-24_10-13-19PM.log. Then either from the log file or from installation manual find the appropriate configuration to meet the prerequisites and fix it manually.
+The response file for this session can be found at:
+ /opt/oracle/product/19c/dbhome_1/install/response/db_2022-09-24_10-13-19PM.rsp
+
+You can find the log of this install session at:
+ /tmp/InstallActions2022-09-24_10-13-19PM/installActions2022-09-24_10-13-19PM.log
+
+As a root user, execute the following script(s):
+	1. /opt/oracle/oraInventory/orainstRoot.sh
+	2. /opt/oracle/product/19c/dbhome_1/root.sh
+
+Execute /opt/oracle/oraInventory/orainstRoot.sh on the following nodes:
+[331db970408a]
+Execute /opt/oracle/product/19c/dbhome_1/root.sh on the following nodes:
+[331db970408a]
+Removing intermediate container 331db970408a
