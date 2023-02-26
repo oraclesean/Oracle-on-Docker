@@ -1,0 +1,12 @@
+> docker volume prune
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] y
+Deleted Volumes:
+84c91dc6a3f0cb354243cb9ee2ca5a79933ca67
+oradata_ORCL1_data
+oradata_ORCL1_diag
+4efabdab067033c973d00e73de9a05121e0cb70
+9fc0fdc81eabd71a07f28a8d79fd2c1a5606747
+oradata_ORCL1_audit
+b26d713b83be8ac8f549f825d19cc2b6e6f19a6
+2ac7d7486083a10a4ed313699e06eba017e63ba
