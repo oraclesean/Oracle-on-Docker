@@ -1,0 +1,10 @@
+~/docker-images/OracleDatabase/SingleInstance/dockerfiles
+> ls -l
+total 32
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 11.2.0.2
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 12.1.0.2
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 12.2.0.1
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 18.3.0
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 18.4.0
+drwxrwxr-x 2 lab lab 4096 Mar 31 14:18 19.3.0
+-rwxrwxr-x 1 lab lab 6575 Mar 31 14:18 buildContainerImage.sh
