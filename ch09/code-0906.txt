@@ -1,0 +1,9 @@
+> ifconfig -a docker0
+docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:ebff:fe95:f6aa  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:eb:95:f6:aa  txqueuelen 0  (Ethernet)
+        RX packets 158  bytes 8256 (8.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 113  bytes 13510 (13.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
