@@ -1,0 +1,10 @@
+> docker tag oraclesean/db:11.2.0.4-EE oracleondocker/database:11.2.0.4-EE
+
+> docker images
+REPOSITORY               TAG           IMAGE ID       CREATED         SIZE
+oracle/database          19.3.0-ee     bdbb8b83217b   3 days ago      6.68GB
+oracleondocker/database  11.2.0.4-EE   c1015174e910   6 months ago    6.72GB
+oraclesean/db            11.2.0.4-EE   c1015174e910   6 months ago    6.72GB
+oraclesean/db            12.1-EE       1db44c287b80   6 months ago    6.9GB
+oraclesean/db            19.13.1-EE    27fdf297483b   5 months ago    7.81GB
+oraclesean/db            21.5-EE       656c63dad153   5 months ago    8.69GB
