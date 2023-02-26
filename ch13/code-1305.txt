@@ -1,0 +1,2 @@
+Attention: INS-32056: The specified Oracle Base contains the existing Central Inventory location.
+Recommendation: Oracle recommends that the Central Inventory location is outside the Oracle Base directory. Specify a different location for the Oracle Base.
