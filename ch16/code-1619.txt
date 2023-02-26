@@ -1,0 +1,4 @@
+> docker login container-registry.oracle.com
+Authenticating with existing credentials...
+
+Login Succeeded
