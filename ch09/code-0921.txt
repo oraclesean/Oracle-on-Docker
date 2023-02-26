@@ -1,0 +1,1 @@
+docker network create database-bridge --attachable --driver bridge
