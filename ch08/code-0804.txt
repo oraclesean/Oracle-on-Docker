@@ -1,0 +1,6 @@
+> docker run -d \
+>      --name ORCL1 \
+>      -p 51521:1521 \
+>      oracle/database:19.3.0-ee
+8ab4c0a09137cebcd99fda61a20942aa4c45350070d5af8d69f3dc2605b6ae9d
+docker: Error response from daemon: driver failed programming external connectivity on endpoint ORCL1: Bind for 0.0.0.0:51521 failed: port is already allocated.
