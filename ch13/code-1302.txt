@@ -1,0 +1,10 @@
+# Oracle Inventory
+/u01/app/oraInventory
+
+# Database BASE and HOME:
+/u01/app/oracle
+/u01/app/oracle/product/$DB_VERSION/dbhome_1
+
+# Grid Infrastructure BASE and HOME:
+/u01/app/grid
+/u01/app/$GRID_VERSION/grid
