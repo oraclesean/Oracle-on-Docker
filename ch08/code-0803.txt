@@ -1,0 +1,2 @@
+NAMES  IMAGE                       PORTS                     STATUS
+ORCL   oracle/database:19.3.0-ee   0.0.0.0:51521->1521/tcp   Up 6 minutes (healthy)
