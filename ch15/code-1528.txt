@@ -1,0 +1,3 @@
+docker run -it \
+       -v $HOME:/debug \
+       3dc4a02582f5 bash
