@@ -1,0 +1,4 @@
+# docker images
+REPOSITORY       TAG        IMAGE ID      CREATED       SIZE
+oracle/database  19.3.0-ee  94d27a821d52  4 weeks ago   6.67GB
+<none>           <none>     f53962475832  4 months ago  6.53GB
