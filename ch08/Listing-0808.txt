@@ -1,0 +1,19 @@
+> docker run -d \
+>      --name TEST \
+>      --hostname TEST \
+>      -p 51521:1521 \
+>      oracle/database:19.3.0-ee
+78f62ede3f889b3805d51428385b5d56826164c2517951019cf5f612c608b8be
+
+> docker exec -it TEST bash
+[oracle@TEST ~]$ hostname
+TEST
+[oracle@TEST ~]$ cat /etc/hosts
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.17.0.5	TEST
+[oracle@TEST ~]$
