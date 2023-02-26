@@ -1,0 +1,3 @@
+NAMES  IMAGE                       PORTS                     STATUS
+ORCL1  oracle/database:19.3.0-ee                             Created
+ORCL   oracle/database:19.3.0-ee   0.0.0.0:51521->1521/tcp   Up 23 minutes (healthy)
