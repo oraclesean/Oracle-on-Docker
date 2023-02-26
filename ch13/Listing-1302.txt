@@ -1,0 +1,39 @@
+Executing user defined scripts
+/opt/oracle/runUserScripts.sh: running /opt/oracle/scripts/setup/01_add_pdb.sh
+Prepare for db operation
+13% complete
+Creating Pluggable Database
+15% complete
+19% complete
+23% complete
+31% complete
+53% complete
+Completing Pluggable Database Creation
+60% complete
+Executing Post Configuration Actions
+100% complete
+Pluggable database "PDB2" plugged successfully.
+Look at the log file "/opt/oracle/cfgtoollogs/dbca/CDB/PDB2/CDB.log" for further details.
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Wed Jan 17 17:55:13 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> 
+Pluggable database altered.
+
+SQL> Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+DONE: Executing user defined scripts
+
+The Oracle base remains unchanged with value /opt/oracle
+#########################
+DATABASE IS READY TO USE!
+#########################
