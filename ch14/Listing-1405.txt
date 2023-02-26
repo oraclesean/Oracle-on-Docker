@@ -1,0 +1,23 @@
+Building image 'oracle/database:19.3.0-ee' ...
+[+] Building 1045.0s (15/15) FINISHED
+ => [internal] load build definition from Dockerfile     2.5s
+ => => transferring dockerfile: 5.11kB                   0.2s
+ => [internal] load .dockerignore                        4.0s
+ => => transferring context: 2B                          0.1s
+ => [internal] load metadata for docker.io/library/or    0.0s
+ => CACHED [base 1/4] FROM docker.io/library/oracleli    0.0s
+ => [internal] load build context                       13.5s
+ => => transferring context: 3.06GB                     11.2s
+ => [base 2/4] COPY setupLinuxEnv.sh checkSpace.sh /o   29.1s
+ => [base 3/4] COPY runOracle.sh startDB.sh createDB.    4.2s
+ => [base 4/4] RUN echo "INSTALL_DIR = /opt/install"   393.8s
+ => [builder 1/2] COPY --chown=oracle:dba LINUX.X64_1   43.8s
+ => [builder 2/2] RUN chmod ug+x /opt/install/*.sh &&  329.0s
+ => [stage-2 1/4] COPY --chown=oracle:dba --from=buil  157.2s
+ => [stage-2 2/4] RUN /opt/oracle/oraInventory/orains    9.3s
+ => [stage-2 3/4] WORKDIR /home/oracle                   4.4s
+ => [stage-2 4/4] RUN echo 'ORACLE_SID=${ORACLE_SID:-    2.9s
+ => exporting to image                                  28.0s
+ => => exporting layers                                 27.9s
+ => => writing image sha256:b0be5db0705d826560d064522    0.0s
+ => => naming to docker.io/oracle/database:19.3.0-ee     0.0s
