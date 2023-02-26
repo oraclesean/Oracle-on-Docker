@@ -1,0 +1,7 @@
+docker run ... \
+       -v /oradata/ORA19C:/opt/oracle/oradata \
+...
+
+docker run ... \
+       --volume /oradata/ORA19C:/opt/oracle/oradata \
+...
