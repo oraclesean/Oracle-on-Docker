@@ -1,0 +1,3 @@
+> docker images
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+ubuntu       latest    ba6acccedd29   4 weeks ago   72.8MB
