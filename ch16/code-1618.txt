@@ -1,0 +1,4 @@
+REPOSITORY       TAG           IMAGE ID       CREATED         SIZE
+bitnami/mariadb  10.5.17       0470be367c25   9 hours ago     341MB
+bitnami/mariadb  latest        ca73fbad9ff3   5 hours ago     344MB
+mariadb          latest        11aee66fdc31   6 days ago      384MB
