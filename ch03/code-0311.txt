@@ -1,0 +1,2 @@
+> docker exec -it fervent_mendeleev bash
+root@4a9ddd43e0e2:/#
