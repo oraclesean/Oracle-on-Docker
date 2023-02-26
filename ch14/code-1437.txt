@@ -1,0 +1,2 @@
+> docker builder prune
+WARNING! This will remove all dangling build cache. Are you sure you want to continue? [y/N]
