@@ -1,0 +1,1 @@
+alias dangimg='docker images -f dangling=true'
