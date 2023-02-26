@@ -1,0 +1,4 @@
+# Enable read-only Oracle Home:
+  if [ "${ROOH^^}" = "ENABLE" ]
+then $ORACLE_HOME/bin/roohctl -enable
+fi
