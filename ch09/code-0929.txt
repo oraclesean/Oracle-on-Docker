@@ -1,0 +1,15 @@
+SQL> create database link DB2 connect to system identified by oracle123 using 'dbhost2:1521/ORA2';
+
+Database link created.
+
+SQL> select host_name from v$instance;
+
+HOST_NAME
+----------------------------------------------------------------
+dbhost1
+
+SQL> select host_name from v$instance@DB2;
+
+HOST_NAME
+----------------------------------------------------------------
+dbhost2
