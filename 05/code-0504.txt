@@ -1,0 +1,2 @@
+> docker exec -it ORCL bash
+[oracle@8facfd649aa4 ~]$
