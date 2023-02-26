@@ -1,0 +1,2 @@
+# Remove dangling images (intermitten images with tag <none>)
+#yes | "${CONTAINER_RUNTIME}" image prune > /dev/null
