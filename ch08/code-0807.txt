@@ -1,0 +1,4 @@
+> docker run -d \
+       --name TEST \
+        -P oracle/database:19.3.0-ee
+639c6770dacd207f1d9b0a5fa301c9a9d1dc6dac420047ca6c0a41598b9a0203
