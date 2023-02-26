@@ -1,0 +1,3 @@
+> docker volume create --opt type=none --opt o=bind \
+         --opt device=$HOME/test_bind test_bind
+test_bind
