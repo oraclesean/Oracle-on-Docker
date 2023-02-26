@@ -1,0 +1,5 @@
+> docker images
+REPOSITORY        TAG         IMAGE ID       CREATED          SIZE
+<none>            <none>      8cf63acc1f17   21 seconds ago   5.54MB
+alpine            latest      9c6f07244728   2 weeks ago      5.54MB
+oracle/database   19.3.0-ee   1b588736c8c1   2 months ago     6.67GB
