@@ -1,0 +1,6 @@
+> docker run alpine
+Unable to find image 'alpine:latest' locally
+latest: Pulling from library/alpine
+213ec9aee27d: Pull complete
+Digest: sha256:bc41182d7ef5ffc53a40b044e725193bc10142a1243f395ee852a8d9730fc2ad
+Status: Downloaded newer image for alpine:latest
