@@ -1,0 +1,49 @@
+#!/bin/bash
+# Create additional pluggable databases.
+
+  if [ -n "$PDB_LIST" ] # A PDB list is defined
+then
+
+# Capture the existing IFS (Internal Field Separator)
+OLDIFS=$IFS
+
+# Set IFS to a comma before looping:
+IFS=,
+
+# Loop over PDBs in the list:
+ for pdb_name in $PDB_LIST
+  do 
+
+# Return IFS to its original value while inside the loop:
+IFS=$OLDIFS
+
+# Create the PDB:
+$ORACLE_HOME/bin/dbca -silent -createPluggableDatabase -pdbName $pdb_name -sourceDB $ORACLE_SID -createAsClone true -createPDBFrom DEFAULT -autoGeneratePasswords || exit 1
+
+# Add a TNS entry:
+cat << EOF >> $ORACLE_HOME/network/admin/tnsnames.ora
+
+$pdb_name =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 0.0.0.0)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = $pdb_name)
+    )
+  )
+EOF
+
+# Open the PDB, save its state:
+sqlplus / as sysdba << EOF
+alter pluggable database $pdb_name save state;
+EOF
+
+# Set IFS back to a comma before returning to the next loop step:
+IFS=,
+
+done
+
+# Set IFS back to its original value:
+IFS=$OLDIFS
+
+fi
