@@ -1,0 +1,19 @@
+SQL> conn system/oracle123@//dbhost1:1521/ORA1
+Connected.
+SQL> conn system/oracle123@//dbhost1/ORA1
+Connected.
+SQL> select host_name from v$instance;
+
+HOST_NAME
+----------------------------------------------------------------
+dbhost1
+
+SQL> conn system/oracle123@//dbhost2:1521/ORA2
+Connected.
+SQL> conn system/oracle123@//dbhost2/ORA2
+Connected.
+SQL> select host_name from v$instance;
+
+HOST_NAME
+----------------------------------------------------------------
+dbhost2
