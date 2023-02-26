@@ -1,0 +1,17 @@
+docker volume inspect docker_bucket
+[
+    {
+        "CreatedAt": "0001-01-01T00:00:00Z",
+        "Driver": "s3fs:latest",
+        "Mountpoint": "",
+        "Name": "docker_bucket",
+        "Options": {},
+        "Scope": "local",
+        "Status": {
+            "args": [
+                "-o",                "nomultipart,use_path_request_style,url=https://ocid1.tenancy.oc1..XXXXX.compat.objectstorage.XXXXX-1.oraclecloud.com/,bucket=docker_bucket"
+            ],
+            "mounted": false
+        }
+    }
+]
