@@ -1,0 +1,3 @@
+cd /docker/OracleDatabase/SingleInstance/dockerfiles/
+./buildContainerImage.sh -v 19.3.0 -e
+./buildContainerImage.sh -v 21.3.0 -e
