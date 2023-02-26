@@ -1,0 +1,8 @@
+> docker pull bitnami/mariadb
+Using default tag: latest
+latest: Pulling from bitnami/mariadb
+1d8866550bdd: Pull complete
+cfd1823a275f: Pull complete
+Digest: sha256:320745f11755f950a6ffa80a7e16dca108b3fe6df76873e2ec22fa3900fecb20
+Status: Downloaded newer image for bitnami/mariadb:latest
+docker.io/bitnami/mariadb:latest
