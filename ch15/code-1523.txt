@@ -1,0 +1,1 @@
+docker run --name test -it 3dc4a02582f5 bash
