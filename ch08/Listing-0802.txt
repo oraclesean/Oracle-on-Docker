@@ -1,0 +1,13 @@
+> docker volume create \
+>      --opt type=none \
+>      --opt o=bind \
+>      --opt device=/Users/sean.scott/oradata/ORCL \
+>      oradata_ORCL
+oradata_ORCL
+
+> docker run -d \
+>      --name ORCL \
+>      --mount type=volume,target=/opt/oracle/oradata,source=oradata_ORCL \
+>      -p 51521:1521 \
+>      oracle/database:19.3.0-ee
+f502c53c3c272463f6b40860784c95f0c2f0cbf9893e503a7cce83bf2ccd35e6
