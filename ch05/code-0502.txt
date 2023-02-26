@@ -1,0 +1,2 @@
+> docker run -d --name ORCL oracle/database:19.3.0-ee
+8facfd649aa4fcdbf27ae6908a573c2a16db0be7cba73c3093593507ac12b93f

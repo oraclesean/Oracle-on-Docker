@@ -1,0 +1,11 @@
+> ps -ef | grep system
+root         486       1  0 Feb14 ?        00:00:10 /lib/systemd/systemd-journald
+root         520       1  0 Feb14 ?        00:00:14 /lib/systemd/systemd-udevd
+systemd+     741       1  0 Feb14 ?        00:00:05 /lib/systemd/systemd-timesyncd
+systemd+     750       1  0 Feb14 ?        00:00:10 /lib/systemd/systemd-networkd
+systemd+     753       1  0 Feb14 ?        00:00:11 /lib/systemd/systemd-resolved
+message+     792       1  0 Feb14 ?        00:00:32 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         809       1  0 Feb14 ?        00:00:14 /lib/systemd/systemd-logind
+root         812       1  0 Feb14 ?        00:04:09 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+lab       744954       1  0 Feb26 ?        00:01:05 /lib/systemd/systemd --user
+lab      2348206 2334483  0 23:56 pts/6    00:00:00 grep --color=auto system

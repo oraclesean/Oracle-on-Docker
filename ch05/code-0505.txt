@@ -1,0 +1,3 @@
+> docker ps
+CONTAINER ID   IMAGE                       NAMES
+8facfd649aa4   oracle/database:19.3.0-ee   ORCL

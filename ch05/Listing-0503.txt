@@ -1,0 +1,11 @@
+[oracle@8facfd649aa4 ~]$ id
+uid=54321(oracle) gid=54321(oinstall) groups=54321(oinstall),54322(dba),54323(oper),54324(backupdba),54325(dgdba),54326(kmdba),54330(racdba)
+
+[oracle@8facfd649aa4 ~]$ cat /etc/redhat-release
+Red Hat Enterprise Linux Server release 7.8 (Maipo)
+
+[oracle@8facfd649aa4 ~]$ ps -ef | grep pmon | grep -v grep
+oracle      2464       1  0 22:42 ?        00:00:00 ora_pmon_ORCLCDB
+
+[oracle@8facfd649aa4 ~]$ egrep -v "^$|^#" /etc/oratab
+ORCLCDB:/opt/oracle/product/19c/dbhome_1:N
