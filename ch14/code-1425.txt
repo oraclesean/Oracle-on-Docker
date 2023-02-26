@@ -1,0 +1,5 @@
+> docker rmi alpine-demo
+Untagged: alpine-demo:latest
+
+> docker rmi alpine-new
+Untagged: alpine-new:latest
