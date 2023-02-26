@@ -1,0 +1,10 @@
+> mv demo/Dockerfile .
+
+> cp /etc/passwd ./demo
+
+> ls -l ./demo
+-rw-r--r--  1 seanscott  staff  7868 Aug 25 13:30 passwd
+
+> ls -l
+-rw-r--r--  1 seanscott  staff    34 Aug 25 10:57 Dockerfile
+drwxr-xr-x  3 seanscott  staff    96 Aug 25 13:31 demo
