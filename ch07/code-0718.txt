@@ -1,0 +1,4 @@
+> docker ps
+NAMES        IMAGE
+ORA19c_old   f53962475832
+ORA19c_new   oracle/database:19.3.0-ee
