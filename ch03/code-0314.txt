@@ -1,0 +1,2 @@
+> docker commit my_container ubuntu_editor
+sha256:be90b42f8ef0c5b8e343c7fd5d7aaa5d99f1e7e65dfac9020c4f362dade0410f
