@@ -1,0 +1,5 @@
+> ip link show type bridge
+4: docker0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default
+    link/ether 02:42:eb:95:f6:aa brd ff:ff:ff:ff:ff:ff
+20: br-9dfba096bf9a: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default
+    link/ether 02:42:14:53:e0:c8 brd ff:ff:ff:ff:ff:ff
