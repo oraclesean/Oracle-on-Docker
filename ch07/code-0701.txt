@@ -1,0 +1,2 @@
+scp [source file] [destination]
+docker cp [source file] [destination]
