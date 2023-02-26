@@ -1,0 +1,7 @@
+> docker pull bitnami/mariadb:10.5.17
+10.5.17: Pulling from bitnami/mariadb
+1d8866550bdd: Already exists
+0f5b0c3c18cf: Pull complete
+Digest: sha256:ec6bb285c67d5b66a6ee1fca667e9d73906d767b02cc5dbb2bff1159d97e7fbe
+Status: Downloaded newer image for bitnami/mariadb:10.5.17
+docker.io/bitnami/mariadb:10.5.17
