@@ -1,0 +1,2 @@
+oracle/database:19.3.0-ee
+oraclelinux:7-slim
