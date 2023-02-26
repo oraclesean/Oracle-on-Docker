@@ -1,0 +1,1 @@
+docker cp my_container:/source_path/filename /destination_path/
