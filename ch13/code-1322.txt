@@ -1,0 +1,4 @@
+function setOracleBaseDirs {
+  export ORACLE_BASE_CONFIG="$($ORACLE_HOME/bin/orabaseconfig)"
+  export ORACLE_BASE_HOME="$($ORACLE_HOME/bin/orabasehome)"
+}
