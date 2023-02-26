@@ -1,0 +1,8 @@
+> docker volume ls
+DRIVER  VOLUME NAME
+local   ORA216_data
+local   ORA216_diag
+local   ORA216_audit
+local   ORA1915_data
+local   ORA1915_diag
+local   ORA1915_audit
