@@ -1,0 +1,1 @@
+INVENTORY_LOCATION=###ORACLE_BASE###/oraInventory
