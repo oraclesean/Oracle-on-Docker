@@ -1,0 +1,19 @@
+> docker exec -it MYDB sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Mon Mar 1 20:09:25 2021
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> select name from v$database;
+
+NAME
+---------
+MYDB
+
+SQL>
