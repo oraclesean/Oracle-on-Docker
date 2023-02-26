@@ -1,0 +1,3 @@
+RUN chmod ug+x $INSTALL_DIR/*.sh && \
+    sync && \
+    bash -x $INSTALL_DIR/$INSTALL_DB_BINARIES_FILE $DB_EDITION
