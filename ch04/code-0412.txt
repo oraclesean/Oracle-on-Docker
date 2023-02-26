@@ -1,0 +1,2 @@
+> docker container port MYDB
+1521/tcp -> 0.0.0.0:10000
