@@ -1,0 +1,4 @@
+> docker run -d --name bind_test \
+>        -v oracle_bind:/opt/oracle/oradata \
+>        oracle/database:19.3.0-ee
+d2b25b1f661d7f243984fdcbd77177beb14dc61be9525d421426e0d609917f31
