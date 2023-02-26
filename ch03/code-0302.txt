@@ -1,0 +1,4 @@
+whoami
+id
+echo $$
+head -2 /etc/os-release
