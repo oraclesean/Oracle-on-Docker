@@ -1,0 +1,6 @@
+> mkdir -p $HOME/test_bind
+
+> docker run \
+>        --volume test_bind:/test_bind \
+>        alpine ls -l /test_bind
+total 0
