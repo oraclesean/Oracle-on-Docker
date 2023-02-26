@@ -1,0 +1,6 @@
+systemctl stop docker.service
+systemctl stop docker.socket
+sed -i 's|ExecStart=/usr/bin/dockerd|ExecStart=/usr/bin/dockerd -g /docker|g' /lib/systemd/system/docker.service
+rsync -aqxP /var/lib/docker/ /docker/.docker 2>/dev/null
+systemctl daemon-reload
+systemctl start --no-block docker.service
