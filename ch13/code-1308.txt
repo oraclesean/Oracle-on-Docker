@@ -1,0 +1,3 @@
+USER oracle
+COPY --chown=oracle:dba --from=builder $ORACLE_BASE $ORACLE_BASE
+COPY --chown=oracle:dba --from=builder $ORACLE_INVENTORY $ORACLE_INVENTORY
