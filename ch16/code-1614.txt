@@ -1,0 +1,17 @@
+> docker pull mariadb
+Using default tag: latest
+latest: Pulling from library/mariadb
+2b55860d4c66: Pull complete
+4bf944e49ffa: Pull complete
+020ff2b6bb0b: Pull complete
+977397ae9bc6: Pull complete
+b361cf449d40: Pull complete
+21d261950157: Pull complete
+296a47dd9435: Pull complete
+bbe841bf5cfe: Pull complete
+758db05dd921: Pull complete
+9c2c0a21c9e6: Pull complete
+4bc311b9359a: Pull complete
+Digest: sha256:05b53c3f7ebf1884f37fe9efd02da0b7faa0d03e86d724863f3591f963de632c
+Status: Downloaded newer image for mariadb:latest
+docker.io/library/mariadb:latest
