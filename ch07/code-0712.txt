@@ -1,0 +1,11 @@
+> docker volume inspect oradata_ORCL1_data
+[
+    {
+        "Driver": "local",
+        "Mountpoint": "/var/lib/docker/volumes/oradata_ORCL1_data/_data",
+        "Name": "oradata_ORCL1_data",
+        "Options": {},
+        "Scope": "local"
+    }
+]
+~
