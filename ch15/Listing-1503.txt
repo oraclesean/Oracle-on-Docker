@@ -1,0 +1,2 @@
+   # Start database
+   $DEBUG "$ORACLE_BASE"/"$START_FILE";
